@@ -77,7 +77,7 @@
 
   <div class="card">
     <h2>Booking Request</h2>
-    <form>
+    <form action="/deposit.html" method="GET">
       <input placeholder="Full Name" required />
       <input placeholder="Phone Number" required />
       <select>
