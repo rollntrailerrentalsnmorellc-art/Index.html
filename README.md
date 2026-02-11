@@ -89,8 +89,8 @@
         <option>Weekly</option>
       </select>
       <textarea placeholder="Details or questions"></textarea>
+     <form action="/deposit.html" method="GET">
       <button type="submit">Continue to Deposit</button>
-    </form action="/deposit.html" method="GET">
 
     <p style="font-size:12px;color:#777;margin-top:10px;">
       Deposits are non-refundable and required to reserve your rental dates.
