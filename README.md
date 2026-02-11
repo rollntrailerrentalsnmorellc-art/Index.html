@@ -77,7 +77,29 @@
 
   <div class="card">
     <h2>Booking Request</h2>
-    <form action="/deposit.html" method="GET">
+   <form action="/deposit.html" method="GET" style="margin-top: 15px;">
+  <input name="name" placeholder="Full Name" required />
+  <input name="phone" placeholder="Phone Number" required />
+  <input name="email" type="email" placeholder="Email (optional)" />
+
+  <select name="trailer" required>
+    <option value="tilt22">22’ Tilt Deck Equipment Trailer — 14K</option>
+    <option value="car20">20’ Steel Deck Car Hauler — 7K</option>
+  </select>
+
+  <select name="term" required>
+    <option value="daily">Daily</option>
+    <option value="weekly">Weekly</option>
+  </select>
+
+  <textarea name="notes" placeholder="Details or questions"></textarea>
+
+  <button type="submit">Continue to Deposit</button>
+</form>
+
+<p style="font-size:12px;color:#777;margin-top:10px;">
+  Deposits are <b>non-refundable</b>. Requests are <b>pending approval</b>. Balance due at pickup.
+</p> 
       <input placeholder="Full Name" required />
       <input placeholder="Phone Number" required />
       <select>
